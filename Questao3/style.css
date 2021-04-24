@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 20px 5px;
+    color:  white;
+}
+
+a:hover{
+    background-color: rgb(176,224,230);
+    color: black ;
+}
+
+body{
+    font-family: arial;
+}
+
+ul{
+    list-style: none;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+nav{
+    background-color: rgba(16,16,16,.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;   
+}
+
+table#tabelahorario{
+    border: 1px solid  rgba(16,16,16,.5);
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table#tabelahorario td{
+    border: 1px solid  rgba(16,16,16,.5);
+    padding: 10px;
+    text-align: center;
+}
+
+table#tabelahorario td.ce{
+    color: white;
+    background-color:  rgba(16,16,16,.5);
+}
+
+table#tabelahorario td.cd{
+    color: black;
+    background-color: rgb(176,224,230);
+}
+
+table#tabelahorario td.cet{
+    color: white;
+    background-color:  rgba(16,16,16,.5);
+    font-weight: bolder;
+}
+
+table#tabelahorario td.cdt{
+    color: black;
+    background-color: rgb(176,224,230);
+    font-weight: bolder;
+}
+
+table#tabelahorario caption{
+    color: rgba(16,16,16,.5);
+    font-size: 15pt;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.img{
+    padding-left: 25%;
+       
+}
+.sobre{
+    text-align: center;
+    padding-top:30px ;
+}
+
+footer{
+    background-color:  rgb(176,224,230);
+  
+}
+
+.container{
+   max-width: 400px; 
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+}
+
+
+#contatc{
+    background-color: rgba(16,16,16,.5) ;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 2px 0 rgb(176,224,230);
+}
+
+ input[type="text"],
+ input[type="email"],
+ input[type="tel"]
+{
+    font: 400 12px/16px;
+    width: 92%;
+    border: 1px solid black;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+
+}
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+h1{
+    
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 70px ;
+
+}
+h2{    
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 15px;
+    
+
+}
+
+.botao{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: rgba(16,16,16,.5);
+    color: white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.botao:hover{    
+    background:  rgb(176,224,230);
+    color: black;
+}
